@@ -22,9 +22,11 @@
     rgba(0, 255, 242, 0.925) 100%
   );
 }
+
 h1 {
     margin-bottom: 40px;
 }
+
 .timeTo__item {
     display: flex;
     flex-direction: column;
@@ -33,9 +35,11 @@ h1 {
     margin: 10px;
     height: 100px;
 }
+
 .timeTo {
     display: flex;
 }
+
 .big, .d1 {
     font-weight: 900;
     color: rgb(24, 24, 24);

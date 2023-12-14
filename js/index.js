@@ -49,6 +49,8 @@ cards.forEach(function(elem,index)
     elem.querySelector('.card-title').innerHTML = `<br>${tovarWatch[index].nameTovar}`;
     elem.querySelector('.card-text').innerHTML = `<br>Корпус: ${tovarWatch[index].corpus}<br>Ремешок: ${tovarWatch[index].remen}<br>Размер дисплея: ${tovarWatch[index].displaySize}<br>Тип дисплея: ${tovarWatch[index].displayType}<br> Блютуз: ${tovarWatch[index].bleutooth}<br>Операционные системы: ${tovarWatch[index].OS.os1}, ${tovarWatch[index].OS.os2}`
 });
+
+
 let endSold = new Date('2024-1-01'); 
 let date = new Date();
 let toEndOfSold = endSold - date;
