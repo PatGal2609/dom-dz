@@ -45,3 +45,7 @@ h1 {
     color: rgb(24, 24, 24);
     font-size: xx-large;
 }
+.container3 {
+    width: 700px;
+    margin: 200px auto;
+}
