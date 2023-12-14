@@ -1,0 +1,11 @@
+.container {
+    display: flex; 
+    justify-content: space-around; 
+    width: 1140px;
+    margin-top: 150px;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 300px;
+}
